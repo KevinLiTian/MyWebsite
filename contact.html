@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>firstWebsite</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="styles.css" />
     <!-- From font awesome website, to get icons -->
     <script
@@ -49,40 +49,50 @@
       </div>
     </nav>
 
-    <!-- Hero section -->
-    <div class="main">
-      <div class="main_container">
-        <div class="main_content">
-          <h1>Contact</h1>
-          <h2>Tian Li</h2>
-          <p>See what makes me different.</p>
-          <button class="main_btn">
-            <a href="#jump2service">Get Started</a>
-          </button>
-        </div>
-        <div class="main_img--container">
-          <!-- Picture from unDraw.co -->
-          <img src="images/myphoto.jpg" alt="pic" id="main_img" />
-        </div>
+    <!-- Contact Form Section, https://formsubmit.co/ -->
+    <div class="contact-section">
+      <div class="alert-success" id="alert">
+        <span>Message Sent! Thank you for contacting!</span>
       </div>
-    </div>
-
-    <!-- Service section -->
-    <div class="services" , id="jump2service">
-      <h1>About ME</h1>
-      <div class="services_container">
-        <div class="services_card">
-          <h2>Extracurricular</h2>
-          <p>Take the Leap</p>
-        </div>
-        <div class="services_card">
-          <h2>Education</h2>
-          <p>Ladder of Progress</p>
-        </div>
-        <div class="services_card">
-          <h2>Life</h2>
-          <p>Roadmap and Thoughts</p>
-        </div>
+      <div class="contact-info">
+        <div><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</div>
+        <div><i class="fas fa-envelope"></i>kevin.li20021106@gmail.com</div>
+        <div><i class="fas fa-phone"></i>+1 6043580452</div>
+        <div><i class="fas fa-clock"></i>Mon - Fri 10:00 AM to 5:00 PM</div>
+      </div>
+      <div class="contact-form">
+        <h2>Contact ME</h2>
+        <form
+          action="https://formsubmit.co/kevin.li20021106@gmail.com"
+          method="POST"
+        >
+          <input
+            type="text"
+            name="Name"
+            id="name"
+            class="text-box"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            class="text-box"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="send-btn" onclick="alertmsg()">
+            Send
+          </button>
+        </form>
       </div>
     </div>
 
@@ -133,5 +143,6 @@
     </div>
 
     <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
