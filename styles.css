@@ -290,6 +290,9 @@
 
 /* Hero Section Mobile Responsive */
 @media screen and (max-width: 768px) {
+  .main {
+    padding-bottom: 200px;
+  }
   .main_container {
     display: grid;
     grid-template-columns: auto;
@@ -320,8 +323,19 @@
   }
 
   #main_img {
-    height: 80%;
-    width: 80%;
+    height: 60%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    padding-bottom: 150px;
+  }
+
+  #main_img {
+    height: 70%;
+    width: 70%;
   }
 }
 
@@ -411,7 +425,7 @@
 
   .services h1 {
     font-size: 2rem;
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
 }
 
