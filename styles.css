@@ -7,7 +7,7 @@
 
 /* Navbar Section CSS */
 .navbar {
-  background: #131313;
+  background: #121212;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -30,8 +30,8 @@
 }
 
 #navbar_logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #fff;
+  background-image: linear-gradient(to right, #fff 0%, darkgrey 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -39,12 +39,11 @@
   -moz-text-fill-color: transparent;
   display: flex;
   align-items: center;
-  cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
 }
 
-.fa-gem {
+.fa-address-card {
   margin-right: 0.5rem;
 }
 
@@ -98,7 +97,7 @@
 }
 
 .navbar_links:hover {
-  color: #f77062;
+  color: #bb86fc;
   transition: all 0.3s ease;
 }
 
@@ -125,7 +124,7 @@
     transition: all 0.5s ease;
     height: 50vh;
     z-index: -1;
-    background: #131313;
+    background: #121212;
   }
 
   .navbar_menu.active {
@@ -199,7 +198,7 @@
 
 /* Hero Section CSS */
 .main {
-  background-color: #141414;
+  background-color: #121212;
 }
 
 .main_container {
@@ -209,7 +208,7 @@
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background-color: #141414;
+  background-color: #121212;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -218,8 +217,7 @@
 
 .main_content h1 {
   font-size: 4rem;
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-image: linear-gradient(to bottom, #bb86fc 0%, #21d4fd 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -229,8 +227,7 @@
 
 .main_content h2 {
   font-size: 4rem;
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+  background-image: linear-gradient(to bottom, #bb86fc 0%, #21d4fd 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -338,7 +335,7 @@
 
 /* Services Section CSS */
 .services {
-  background: #141414;
+  background: #121212;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -455,7 +452,7 @@
 
 /* Footer Section CSS */
 .footer_container {
-  background-color: #141414;
+  background-color: #121212;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
