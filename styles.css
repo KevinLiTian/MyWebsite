@@ -351,7 +351,7 @@
 
 .services h1 {
   color: #121212;
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-bottom: 3rem;
 }
 
@@ -420,7 +420,7 @@
 
 @media screen and (max-width: 960px) {
   .services {
-    height: 1600px;
+    height: 800px;
   }
 
   .services h1 {
@@ -429,13 +429,23 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 880px) {
   .services {
     height: 1400px;
   }
 
   .services h1 {
-    font-size: 1.2rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .services {
+    height: 1400px;
+  }
+
+  .services h1 {
+    font-size: 3rem;
   }
 
   .services_card {
