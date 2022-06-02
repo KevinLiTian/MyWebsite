@@ -427,6 +427,16 @@
     height: 1100px;
   }
 
+  .services h2 {
+    top: 300px;
+    left: 30px;
+  }
+
+  .services_card p {
+    top: 350px;
+    left: 30px;
+  }
+
   .services_card {
     height: 400px;
     width: 300px;
