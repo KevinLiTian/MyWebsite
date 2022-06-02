@@ -322,8 +322,8 @@
   }
 
   #main_img {
-    height: 60%;
-    width: 60%;
+    height: 70%;
+    width: 70%;
   }
 }
 
@@ -333,8 +333,8 @@
   }
 
   #main_img {
-    height: 70%;
-    width: 70%;
+    height: 80%;
+    width: 80%;
   }
 }
 
@@ -590,7 +590,7 @@
   color: #fff;
   max-width: 500px;
   line-height: 65px;
-  padding-left: 50px;
+  padding-left: 30px;
   font-size: 18px;
 }
 
@@ -679,7 +679,15 @@
 
   .contact-info,
   .contact-form {
-    margin: 30px 50px;
+    margin: 30px 40px;
+  }
+
+  .contact-info {
+    font-size: 15px;
+  }
+
+  .contact-info i {
+    font-size: 20px;
   }
 
   .contact-form h2 {
