@@ -51,8 +51,13 @@
 
     <!-- Contact Form Section, https://formsubmit.co/ -->
     <div class="contact-section">
-      <div class="alert-success" id="alert">
+      <div class="alert-success" id="suc">
         <span>Message Sent! Thank you for contacting!</span>
+      </div>
+      <div class="alert-error" id="err">
+        <span
+          >Something went wrong! Check if you entered the correct information.
+        </span>
       </div>
       <div class="contact-info">
         <div><i class="fa-solid fa-location-dot"></i> Toronto, ON, Canada</div>
@@ -63,6 +68,7 @@
       <div class="contact-form">
         <h2>Get In Touch</h2>
         <form
+          name="myform"
           action="https://formsubmit.co/fa6159d71b3fa848fe3fc9a10857ccc1"
           method="POST"
         >
