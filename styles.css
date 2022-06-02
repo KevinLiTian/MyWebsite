@@ -41,6 +41,7 @@
   align-items: center;
   text-decoration: none;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .fa-address-card {
@@ -372,7 +373,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("images/extracurricular.jpg");
+    url("images/education.jpg");
   background-size: cover;
   position: relative;
   color: #fff;
@@ -384,7 +385,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("images/education.jpg");
+    url("images/life.jpg");
 }
 
 .services_card:nth-child(3) {
@@ -393,7 +394,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("images/life.jpg");
+    url("images/extracurricular.jpg");
 }
 
 .services h2 {
