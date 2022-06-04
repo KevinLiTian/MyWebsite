@@ -720,3 +720,16 @@
     transform: scale(1);
   }
 }
+
+.resume-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin-top {
+  margin-top: 16px;
+}
+
+.margin-bottom {
+  margin-bottom: 16px;
+}
