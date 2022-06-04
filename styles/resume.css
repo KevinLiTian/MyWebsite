@@ -177,8 +177,7 @@ textarea {
   font: inherit;
 }
 /* End extract */
-html,
-body {
+.resume-content {
   font-family: Verdana, sans-serif;
   font-size: 15px;
   line-height: 1.5;
@@ -186,22 +185,22 @@ body {
 html {
   overflow-x: hidden;
 }
-h1 {
+.resume-content h1 {
   font-size: 36px;
 }
-h2 {
+.resume-content h2 {
   font-size: 30px;
 }
-h3 {
+.resume-content h3 {
   font-size: 24px;
 }
-h4 {
+.resume-content h4 {
   font-size: 20px;
 }
-h5 {
+.resume-content h5 {
   font-size: 18px;
 }
-h6 {
+.resume-content h6 {
   font-size: 16px;
 }
 .w3-serif {
