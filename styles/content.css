@@ -33,12 +33,10 @@ hr {
 }
 
 #container h2 {
-  font-size: 29px; /* 24 / 13 = 1.846153846153846 */
-  margin-top: 23px; /* 35 / 24 = 1.458333333 */
+  font-size: 29px;
+  margin-top: 23px;
 }
 
-/* WordPress classes
--------------------------------------------------------------- */
 .hfeed h1,
 .hfeed h2,
 .hfeed h3,
@@ -92,8 +90,6 @@ blockquote .alignright {
   border: 0;
 }
 
-/* Layout
--------------------------------------------------------------- */
 #main {
   clear: both;
   width: 100%;
@@ -132,8 +128,6 @@ blockquote .alignright {
   clear: left;
 }
 
-/* Posts
--------------------------------------------------------------- */
 .hentry {
   float: left;
   width: 100%;
@@ -180,12 +174,10 @@ blockquote .alignright {
   border: none;
 }
 
-/* Post titles
--------------------------------------------------------------- */
 .hentry .entry-title {
   margin: 0 0 0.25em 0;
   padding: 0;
-  font-size: 22px; /* 24 / 13 = 1.846153846153846 */
+  font-size: 22px;
   text-transform: capitalize;
   line-height: 1.3em;
   border: none;
@@ -193,7 +185,7 @@ blockquote .alignright {
   word-spacing: 2px;
 }
 .singular .entry-title {
-  font-size: 24px; /* 24 / 13 = 1.846153846153846 */
+  font-size: 24px;
   margin-bottom: 0.625em;
 }
 .singular-page .entry-title {
@@ -239,18 +231,6 @@ blockquote .alignright {
 
   #content {
     width: 100%;
-  }
-}
-
-/* Tiny Mobile (portrait) */
-@media only screen and (max-width: 467px) {
-  #branding {
-    border-bottom: 1px solid #eee;
-    margin-bottom: 10px;
-  }
-
-  #header img {
-    max-width: 100px;
   }
 }
 
