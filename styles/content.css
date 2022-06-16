@@ -255,3 +255,9 @@ blockquote .alignright {
   font-weight: 600;
   color: #381ebc;
 }
+
+.project-list a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #381ebc;
+}
