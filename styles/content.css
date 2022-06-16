@@ -1,0 +1,277 @@
+#container {
+  font: 0.9em/1.692307em "Bitter", Georgia, "Times New Roman", Times, serif;
+  background-color: #fff;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e7e7e7;
+  margin: 1em 0 1.692307em 0;
+  padding: 0;
+}
+
+#container ul {
+  list-style: disc;
+  margin: 0 0 1.692307em 2.8em;
+  padding: 0;
+}
+
+#container ol {
+  list-style-type: decimal;
+  margin: 0 0 1.692307em 3.1em;
+  padding: 0;
+}
+
+#container h2 {
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 0 15px 0;
+  color: #333;
+  line-height: 1.3em;
+}
+
+#container h2 {
+  font-size: 29px; /* 24 / 13 = 1.846153846153846 */
+  margin-top: 23px; /* 35 / 24 = 1.458333333 */
+}
+
+/* WordPress classes
+-------------------------------------------------------------- */
+.hfeed h1,
+.hfeed h2,
+.hfeed h3,
+.hfeed h4,
+.hfeed h5,
+.hfeed h6 {
+  font-weight: normal;
+}
+.hcat h5 {
+  font-weight: normal;
+  margin-top: 25px;
+}
+.left,
+.alignleft {
+  float: left;
+  margin: 0 15px 5px 0;
+}
+.right,
+.alignright {
+  float: right;
+  margin: 0 0 10px 25px;
+}
+.center,
+.aligncenter {
+  display: block;
+  margin: 0 auto 1.692307em auto !important;
+}
+.block,
+.alignnone {
+  display: block;
+  margin: 0 0 1.692307em 0;
+}
+img.alignleft,
+img.alignright {
+  margin-top: 5px;
+  display: inline;
+}
+blockquote.alignleft,
+blockquote .alignright {
+  width: 33%;
+}
+.byline abbr,
+.entry-meta abbr,
+.comment-meta abbr {
+  border: none;
+}
+.clear {
+  clear: both;
+}
+.no-border {
+  border: 0;
+}
+
+/* Layout
+-------------------------------------------------------------- */
+#main {
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.page-template-fullwidth #content {
+  width: 100%;
+}
+#content {
+  float: left;
+  width: 100%;
+  margin: 0 0 30px 0;
+  min-height: 180px;
+}
+.page-template-fullwidth #content-post {
+  width: 100%;
+}
+#content-post {
+  float: left;
+  width: 74%;
+  margin: 0 0 30px 0;
+  min-height: 180px;
+}
+#sidebar-primary {
+  float: right;
+  width: 22%;
+}
+.wrap {
+  max-width: 860px;
+  margin: 2rem auto 0 auto;
+  position: relative;
+}
+
+#comments-template {
+  clear: left;
+}
+
+/* Posts
+-------------------------------------------------------------- */
+.hentry {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 0 0 5px 0;
+  font-size: 1em;
+  border-bottom: 1px solid #e5e5e5;
+}
+.hentry:last-child {
+  border-bottom: 0;
+}
+.singular .hentry {
+  margin: 0 0 30px 0;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.featured {
+  margin-bottom: 20px;
+}
+.sticky .sticky-header {
+  float: left;
+  width: 30%;
+}
+.sticky .byline {
+  clear: left;
+}
+.sticky .entry-summary {
+  float: right;
+  width: 65%;
+  border-left: 1px solid #e5e5e5;
+  padding-left: 2.34375%;
+}
+.hentry .featured-thumbnail {
+  margin-bottom: 25px;
+}
+.hentry .archive-thumbnail {
+  float: left;
+  width: 180px;
+  height: 180px;
+  margin: 3px 25px 20px 0;
+}
+.hentry .home-thumbnail {
+  border: none;
+}
+
+/* Post titles
+-------------------------------------------------------------- */
+.hentry .entry-title {
+  margin: 0 0 0.25em 0;
+  padding: 0;
+  font-size: 22px; /* 24 / 13 = 1.846153846153846 */
+  text-transform: capitalize;
+  line-height: 1.3em;
+  border: none;
+  color: #333;
+  word-spacing: 2px;
+}
+.singular .entry-title {
+  font-size: 24px; /* 24 / 13 = 1.846153846153846 */
+  margin-bottom: 0.625em;
+}
+.singular-page .entry-title {
+  color: #ccc;
+}
+.singular-page .entry-title,
+.singular-attachment .entry-title {
+  margin-bottom: 1.2em;
+}
+.entry-title a,
+.entry-title a:visited {
+  color: #222;
+}
+.entry-title a:hover {
+  color: #4e2a5e;
+}
+
+/*  Media Queries (mobile browsing)
+----------------------------------------------------- */
+/* Tablet (portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .wrap {
+    max-width: 100%;
+    padding: 1rem 25px;
+  }
+}
+/* Mobile (portrait) */
+@media only screen and (max-width: 767px) {
+  .wrap {
+    max-width: 100%;
+    padding: 15px 15px;
+  }
+  body {
+    line-height: 1.615384615384615em;
+  }
+  p {
+    margin-bottom: 1.615384615384615em;
+  }
+  .hentry .archive-thumbnail {
+    width: 110px;
+    height: 110px;
+  }
+
+  #content {
+    width: 100%;
+  }
+}
+
+/* Tiny Mobile (portrait) */
+@media only screen and (max-width: 467px) {
+  #branding {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+  }
+
+  #header img {
+    max-width: 100px;
+  }
+}
+
+/* Projects */
+.project-batch-title h2 {
+  margin: 0 0 5px 0;
+  margin-top: 0.58333333em;
+}
+
+.project-batch-title h2 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.project-list li {
+  line-height: 1.69231em;
+  margin-bottom: 10px;
+}
+
+.project-list li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #381ebc;
+}
