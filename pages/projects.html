@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects</title>
-    <link rel="stylesheet" href="/MyWebsite/styles/styles.css" />
+    <link rel="stylesheet" href="/MyWebsite/styles/nav_service_footer.css" />
+    <link rel="stylesheet" href="/MyWebsite/styles/content.css" />
     <!-- From font awesome website, to get icons -->
     <script
       src="https://kit.fontawesome.com/e3608bdf86.js"
@@ -18,9 +19,16 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      id="font-bitter-css"
+      href="https://fonts.googleapis.com/css?family=Bitter:400,700"
+      type="text/css"
+      media="screen"
+    />
   </head>
 
-  <body>
+  <body class="projects">
     <!-- Navbar section -->
     <nav class="navbar">
       <div class="navbar_container">
@@ -55,40 +63,170 @@
       </div>
     </nav>
 
-    <!-- Hero section -->
-    <div class="main">
-      <div class="main_container">
-        <div class="main_content">
-          <h1>Projects</h1>
-          <h2>Tian Li</h2>
-          <p>Developping...</p>
-          <button class="main_btn">
-            <a href="aboutme">Get Started</a>
-          </button>
-        </div>
-        <div class="main_img--container">
-          <!-- Picture from unDraw.co -->
-          <img src="/MyWebsite/images/myphoto.jpg" alt="pic" id="main_img" />
-        </div>
-      </div>
-    </div>
+    <!-- Projects -->
+    <div id="container">
+      <div class="wrap">
+        <div id="main">
+          <div id="content">
+            <div class="hfeed">
+              <!-- Mapper -->
+              <div class="hentry post project-batch-title">
+                <h2>
+                  Mapper
+                  <a href="https://github.com/KevinLiTian/Mapper"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </h2>
+                <h3>C++ Large Scale Project</h3>
+                <h4>Jan - Apr 2022</h4>
+              </div>
 
-    <!-- Service section -->
-    <div class="services">
-      <h1>About ME</h1>
-      <div class="services_container">
-        <a href="/MyWebsite/pages/education.html" class="services_card">
-          <h2>Education</h2>
-          <p>Ladder of Progress</p>
-        </a>
-        <a href="/MyWebsite/pages/life.html" class="services_card">
-          <h2>Life</h2>
-          <p>Roadmap and Thoughts</p>
-        </a>
-        <a href="/MyWebsite/pages/extracurricular.html" class="services_card">
-          <h2>Extracurricular</h2>
-          <p>Take the Leap</p>
-        </a>
+              <div class="hentry post">
+                <div class="entry-summary">
+                  <ul class="project-list">
+                    <li>
+                      <strong style="color: #333">Description: </strong>
+                      A large scale C++ project done by team of three. This is a
+                      software that processes data from OpenStreetMap and draws
+                      interactive maps, providing users with similar
+                      functionality to Google Maps. Follow the Github link to
+                      see the overview and features
+                    </li>
+                    <li>
+                      <strong>Algorithms: </strong>
+                      Implemented the Dijkstra’s and the A* algorithm, providing
+                      the shortest path between two user input locations. In
+                      addition, one is able to visualize the search algorithm.
+                      Provided a solution to the computationally hard Traveling
+                      Saleman Problem’s variant, the VRPPD problem, using data
+                      preprocessing, the greedy algorithm and multiple
+                      optimization techniques such as two-opt
+                    </li>
+                    <li>
+                      <strong style="color: #333"
+                        >Experience & Knowledge:
+                      </strong>
+                      Acquired knowledge and experience of software development
+                      cycle, C++ and collaborative working with Git
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Harvard CS50 -->
+              <div class="hentry post project-batch-title">
+                <h2>
+                  Harvard CS50
+                  <a href="https://github.com/KevinLiTian/Harvard_CS50_AI"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </h2>
+                <h3>Introduction to Artificial Intelligence with Python</h3>
+                <h4>June 2022 - Current</h4>
+              </div>
+
+              <div class="hentry post">
+                <div class="entry-summary">
+                  <ul class="project-list">
+                    <li>
+                      <strong style="color: #333">Description: </strong>
+                      In the summer after the second year of study, I enrolled
+                      in the Harvard's online course CS50, introduction to AI
+                      with Python. Follow the Github link to check the notes and
+                      some projects
+                    </li>
+                    <li>
+                      <strong>6 Aspects: </strong>
+                      This course discusses artificial intelligence in 6
+                      aspects: search, knowledge, uncertainty, optimization,
+                      learning, neural networks and language. Regarding how do
+                      they contribute to creating an AI and how can we
+                      practically do it
+                    </li>
+                    <li>
+                      <strong style="color: #333"
+                        >Experience & Knowledge:
+                      </strong>
+                      Acquired knowledge and experience of AI development and
+                      advanced Python skills
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- MyWebsite -->
+              <div class="hentry post project-batch-title">
+                <h2>
+                  MyWebsite
+                  <a href="https://github.com/KevinLiTian/MyWebsite"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </h2>
+                <h3>Self-Learning Front-end Development</h3>
+                <h4>May 2022 - Current</h4>
+              </div>
+
+              <div class="hentry post">
+                <div class="entry-summary">
+                  <ul class="project-list">
+                    <li>
+                      <strong style="color: #333">Description: </strong>
+                      In the summer after the second year of study, in order to
+                      broaden my knowledge, I started learning front-end
+                      development on my own. This website is the first website I
+                      build to introduce myself
+                    </li>
+                    <li>
+                      <strong style="color: #333"
+                        >Experience & Knowledge:
+                      </strong>
+                      Acquired knowledge and experience of front-end development
+                      (HTML, CSS, JS)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Enhanced Processor -->
+              <div class="hentry post project-batch-title">
+                <h2>
+                  Enhanced Processor
+                  <a href="https://github.com/KevinLiTian/EnhancedProcessor"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </h2>
+                <h3>Hardware Design & Implementation</h3>
+                <h4>Mar - Apr 2022</h4>
+              </div>
+
+              <div class="hentry post">
+                <div class="entry-summary">
+                  <ul class="project-list">
+                    <li>
+                      <strong style="color: #333">Description: </strong>
+                      A custom-designed processor written in Verilog. The
+                      processor is capable of handling assembly language
+                      instructions such as load, store, move, branch with
+                      conditions and all sorts of arithmetic logics
+                    </li>
+                    <li>
+                      <strong style="color: #333"
+                        >Experience & Knowledge:
+                      </strong>
+                      Acquired knowledge and experience of designing and
+                      implementing hardware programs
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- #content -->
+            </div>
+          </div>
+          <!-- #content -->
+        </div>
+        <!-- #main -->
+
+        <div class="clear"></div>
       </div>
     </div>
 
